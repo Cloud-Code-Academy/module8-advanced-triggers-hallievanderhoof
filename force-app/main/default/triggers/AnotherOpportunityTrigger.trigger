@@ -18,6 +18,7 @@ RESOURCES:
 https://www.salesforceben.com/12-salesforce-apex-best-practices/
 https://developer.salesforce.com/blogs/developer-relations/2015/01/apex-best-practices-15-apex-commandments
 */
+
 trigger AnotherOpportunityTrigger on Opportunity (before insert, before update, before delete, after insert, after delete, after undelete) {
     
     // --- BEFORE CONTEXT ---
